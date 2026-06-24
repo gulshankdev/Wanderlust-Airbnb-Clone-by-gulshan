@@ -73,7 +73,7 @@ Wanderlust is a full-stack Airbnb-inspired web application that allows users to 
 
 ```bash
 # Clone the repository
-git clone https://github.com/kamleshkumarr/your-repo-name.git
+Wanderlust-Airbnb-Clone-by-Gulshan
 
 # Navigate to project folder
 cd your-repo-name
@@ -109,9 +109,9 @@ npm start
 
 ## 👨‍💻 Author
 
-**Kamlesh Kumar**
+**Gulshan kumar**
 
-* GitHub: https://github.com/kamleshkumarr
+* https://github.com/gulshankdev    *
 
 ---
 
