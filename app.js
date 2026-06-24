@@ -46,15 +46,10 @@ app.use(express.static(path.join(__dirname, "/public")));
 
 
 const sessionOptions = {
-    secret: process.env.SECRET,
+    secret: process.env.SECRET || "mysecret123",
     resave: false,
-    saveUninitialized: false,
-    cookie: {
-        expires: Date.now() + 7 * 24 * 60 * 60 * 1000,
-        maxAge: 7 * 24 * 60 * 60 * 1000,
-        httpOnly: true
-    },
-}
+    saveUninitialized: true,
+};
 
 app.get("/", (req, res) => {
     res.redirect("/listings");
